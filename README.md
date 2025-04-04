@@ -20,22 +20,22 @@
 
 ### 4. Ders - Enstrüman Algılama (Mikrofon Gerektirir)
 
-[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/SWAPNIL-141/Yapay-Zeka/tree/main/YapayZekaDers4) 
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/SWAPNIL-141/Yapay-Zeka/tree/main/Yapay%20Zeka%20Ders%204) 
 
 ### 5. Ders - Denge Oyunu
 
-[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/SWAPNIL-141/Yapay-Zeka/tree/main/YapayZeka-CartPole) 
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/SWAPNIL-141/Yapay-Zeka/tree/main/Yapay%20Zeka%20Ders%205) 
 
 ### 6. Ders - XOX Oyunu
 
-[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/SWAPNIL-141/Yapay-Zeka/tree/main/YapayZeka-XOX) 
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/SWAPNIL-141/Yapay-Zeka/tree/main/Yapay%20Zeka%20Ders%206) 
 
 ### 7. Ders - Metin Tamamlama
 
-[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/SWAPNIL-141/Yapay-Zeka/tree/main/YapayZekaDers2Donem) 
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/SWAPNIL-141/Yapay-Zeka/tree/main/Yapay%20Zeka%20Ders%207) 
 
 
 ### 8. Ders - Numpy Örnekleri
 
-[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/SWAPNIL-141/Yapay-Zeka/tree/main/YapayZeka-CartPole) 
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/SWAPNIL-141/Yapay-Zeka/tree/main/Yapay%20Zeka%20Ders%208) 
 
