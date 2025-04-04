@@ -1,0 +1,66 @@
+<div>Teachable Machine Ses Modeli</div>
+<button type="button" onclick="init()">Başla</button>
+<div id="label-container"></div>
+<div id="image-container"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/speech-commands@0.4.0/dist/speech-commands.min.js"></script>
+
+<script type="text/javascript">
+    const URL = "https://teachablemachine.withgoogle.com/models/3WfkdOVoY/";
+
+    async function createModel() {
+        const checkpointURL = URL + "model.json";
+        const metadataURL = URL + "metadata.json";
+
+        const recognizer = speechCommands.create(
+            "BROWSER_FFT",
+            undefined,
+            checkpointURL,
+            metadataURL
+        );
+
+        await recognizer.ensureModelLoaded();
+        return recognizer;
+    }
+
+    async function init() {
+        const recognizer = await createModel();
+        const classLabels = recognizer.wordLabels();
+        const labelContainer = document.getElementById("label-container");
+        const imageContainer = document.getElementById("image-container");
+
+        // Resim dosyalarını buraya ekleyin (doğru dizin)
+        const images = {
+            "gitar": "gitar.jpg",
+            "keman": "keman.jpg",
+            "piano": "piano.jpg",
+            "davul": "davul.jpg",
+            "rock gitar": "rock_gitar.jpg"
+        };
+
+        for (let i = 0; i < classLabels.length; i++) {
+            labelContainer.appendChild(document.createElement("div"));
+        }
+
+        recognizer.listen(result => {
+            const scores = result.scores;
+
+            for (let i = 0; i < classLabels.length; i++) {
+                const classPrediction = classLabels[i] + ": " + result.scores[i].toFixed(2);
+                labelContainer.childNodes[i].innerHTML = classPrediction;
+
+                // Tanınan ses ile ilgili resmi göster
+                if (scores[i] > 0.75) {
+                    const imgUrl = images[classLabels[i]];
+                    imageContainer.innerHTML = `<img src="${imgUrl}" alt="${classLabels[i]}" style="width:200px;height:auto;">`;
+                }
+            }
+        }, {
+            includeSpectrogram: true,
+            probabilityThreshold: 0.75,
+            invokeCallbackOnNoiseAndUnknown: true,
+            overlapFactor: 0.50
+        });
+    }
+</script>
