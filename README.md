@@ -18,24 +18,24 @@
 
 [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/SWAPNIL-141/Yapay-Zeka-Dersler/tree/main/Yapay%20Zeka%20Ders%203) 
 
-### 4. Ders - Enstrüman Algılama (Mikrofon Gerektirir)
+### 4. Ders - Denge Oyunu
 
 [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/SWAPNIL-141/Yapay-Zeka-Dersler/tree/main/Yapay%20Zeka%20Ders%204) 
 
-### 5. Ders - Denge Oyunu
+### 5. Ders - Metin Tamamlama
 
 [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/SWAPNIL-141/Yapay-Zeka-Dersler/tree/main/Yapay%20Zeka%20Ders%205) 
 
-### 6. Ders - XOX Oyunu
+### 6. Ders - Enstrüman Algılama (Mikrofon Gerektirir)
 
 [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/SWAPNIL-141/Yapay-Zeka-Dersler/tree/main/Yapay%20Zeka%20Ders%206) 
 
-### 7. Ders - Metin Tamamlama
+### 7. Ders - Numpy Örnekleri
 
 [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/SWAPNIL-141/Yapay-Zeka-Dersler/tree/main/Yapay%20Zeka%20Ders%207) 
 
 
-### 8. Ders - Numpy Örnekleri
+### 8. Ders - XOX Oyunu
 
 [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/SWAPNIL-141/Yapay-Zeka-Dersler/tree/main/Yapay%20Zeka%20Ders%208) 
 
